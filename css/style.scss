@@ -1,0 +1,151 @@
+.wrap {
+  margin: 0 auto;
+  width: 940px;
+  .header {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    .logo {
+      width: 220px;
+    }
+    .menu {
+      display: flex;
+      .shopping_cart {
+        padding-left: 79px;
+      }
+
+      .menu_item {
+        background-color: aqua;
+        border: 1px solid black;
+        padding-top: 8px;
+        padding-bottom: 8px;
+
+        a {
+          font-size: 16px;
+          color: #3f5d45;
+          text-decoration: none;
+          font-weight: bold;
+          display: block;
+          width: 72px;
+          text-align: center;
+        }
+      }
+    }
+  }
+  .home_picture {
+    margin-bottom: 60px;
+  }
+  .content {
+    display: flex;
+    .desert_list {
+      width: 300px;
+      .desert_title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        background-color: #3f5d45;
+        color: #eaf0ed;
+        font-size: 24px;
+      }
+      .desert_item {
+        display: flex;
+        justify-content: center;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        border: 1px solid #eaf0ed;
+
+        a {
+          text-decoration: none;
+          font-size: 24px;
+          color: #3f5d45;
+          font-weight: 600;
+        }
+      }
+      .desert_item:hover {
+        background: #eaf0ed 0% 0% no-repeat padding-box;
+      }
+    }
+    .desert_content {
+      width: 640px;
+      display: flex;
+      flex-wrap: wrap;
+      .card {
+        position: relative;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        .card_content {
+          font-size: 20px;
+          display: flex;
+          .card_name {
+            color: #3f5d45;
+            width: 173px;
+            padding-top: 14px;
+            padding-bottom: 14px;
+            display: flex;
+            justify-content: center;
+            border-left: 1px solid #eaf0ed;
+            border-right: 1px solid #eaf0ed;
+          }
+          .card_cost {
+            width: 127px;
+            display: flex;
+            justify-content: center;
+            padding-top: 14px;
+            padding-bottom: 14px;
+            font-weight: 600;
+            color: #3f5d45;
+            border-right: 1px solid #eaf0ed;
+          }
+        }
+        .add_cart {
+          font-size: 24px;
+          display: flex;
+          justify-content: center;
+          padding-top: 16px;
+          padding-bottom: 16px;
+          background: #eaf0ed;
+          color: #3f5d45;
+          font-weight: 600;
+        }
+        .special {
+          width: 36px;
+          background-color: #3f5d45;
+          font-size: 16px;
+          color: #eaf0ed;
+          padding: 10px;
+          line-height: 20px;
+          position: absolute;
+          top: 0;
+          left: 20px;
+        }
+        .love {
+          position: absolute;
+          top: 19px;
+          right: 22px;
+        }
+      }
+    }
+  }
+  .page {
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+    .page_item {
+      display: flex;
+      width: 60px;
+      border: 1px solid #eaf0ed;
+      padding-top: 16px;
+      padding-bottom: 16px;
+      justify-content: center;
+      align-items: center;
+    }
+    .page_item:hover {
+      background: #3f5d45;
+      color: #eaf0ed;
+    }
+  }
+}

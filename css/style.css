@@ -1,0 +1,148 @@
+.wrap {
+  margin: 0 auto;
+  width: 940px;
+}
+.wrap .header {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.wrap .header .logo {
+  width: 220px;
+}
+.wrap .header .menu {
+  display: flex;
+}
+.wrap .header .menu .shopping_cart {
+  padding-left: 79px;
+}
+.wrap .header .menu .menu_item {
+  background-color: aqua;
+  border: 1px solid black;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.wrap .header .menu .menu_item a {
+  font-size: 16px;
+  color: #3f5d45;
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+  width: 72px;
+  text-align: center;
+}
+.wrap .home_picture {
+  margin-bottom: 60px;
+}
+.wrap .content {
+  display: flex;
+}
+.wrap .content .desert_list {
+  width: 300px;
+}
+.wrap .content .desert_list .desert_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background-color: #3f5d45;
+  color: #eaf0ed;
+  font-size: 24px;
+}
+.wrap .content .desert_list .desert_item {
+  display: flex;
+  justify-content: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border: 1px solid #eaf0ed;
+}
+.wrap .content .desert_list .desert_item a {
+  text-decoration: none;
+  font-size: 24px;
+  color: #3f5d45;
+  font-weight: 600;
+}
+.wrap .content .desert_list .desert_item:hover {
+  background: #eaf0ed 0% 0% no-repeat padding-box;
+}
+.wrap .content .desert_content {
+  width: 640px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.wrap .content .desert_content .card {
+  position: relative;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.wrap .content .desert_content .card .card_content {
+  font-size: 20px;
+  display: flex;
+}
+.wrap .content .desert_content .card .card_content .card_name {
+  color: #3f5d45;
+  width: 173px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  display: flex;
+  justify-content: center;
+  border-left: 1px solid #eaf0ed;
+  border-right: 1px solid #eaf0ed;
+}
+.wrap .content .desert_content .card .card_content .card_cost {
+  width: 127px;
+  display: flex;
+  justify-content: center;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  font-weight: 600;
+  color: #3f5d45;
+  border-right: 1px solid #eaf0ed;
+}
+.wrap .content .desert_content .card .add_cart {
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background: #eaf0ed;
+  color: #3f5d45;
+  font-weight: 600;
+}
+.wrap .content .desert_content .card .special {
+  width: 36px;
+  background-color: #3f5d45;
+  font-size: 16px;
+  color: #eaf0ed;
+  padding: 10px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 20px;
+}
+.wrap .content .desert_content .card .love {
+  position: absolute;
+  top: 19px;
+  right: 22px;
+}
+.wrap .page {
+  display: flex;
+  justify-content: end;
+  margin-top: 10px;
+}
+.wrap .page .page_item {
+  display: flex;
+  width: 60px;
+  border: 1px solid #eaf0ed;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  justify-content: center;
+  align-items: center;
+}
+.wrap .page .page_item:hover {
+  background: #3f5d45;
+  color: #eaf0ed;
+}/*# sourceMappingURL=style.css.map */
