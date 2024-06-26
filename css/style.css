@@ -14,13 +14,12 @@
 }
 .wrap .header .menu {
   display: flex;
+  align-items: center;
 }
 .wrap .header .menu .shopping_cart {
   padding-left: 79px;
 }
 .wrap .header .menu .menu_item {
-  background-color: aqua;
-  border: 1px solid black;
   padding-top: 8px;
   padding-bottom: 8px;
 }
